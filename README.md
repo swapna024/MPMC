@@ -7,8 +7,6 @@ When the system starts, it shows the message **“Ready to roll?”** on the LCD
 
 It’s a fun and simple way to explore interrupt handling, LCD interfacing, and delay generation using **pure 8051 Assembly language**.
 
----
-
 ## 🧩 Components Used
 
 - 🧠 **8051 Microcontroller**  
@@ -16,8 +14,6 @@ It’s a fun and simple way to explore interrupt handling, LCD interfacing, and 
 - 🚨 **External Interrupt (INT0)** – usually triggered via push button
 - ⏲ **Timer** – for generating delays
 - ✨ Pull-up resistors, push button (for interrupt), power supply, etc.
-
----
 
 ## 💻 Code Functionality Breakdown
 
@@ -34,32 +30,23 @@ The program does the following:
    - Picks a pseudo-random number (1 to 6)
    - Displays the string: **"The number is:"**
    - Then shows the selected number (`1` to `6`) on the LCD
-
----
-
+     
 ## 📦 Project Files
 
 - `interrupt_lcd.asm` – The complete assembly source code for this project.
 - `README.md` – You're reading it!
 - (Optional) `LICENSE` – MIT License to make the code open-source.
 
----
-
 ## ⚙️ Tools Used
 
 - 🛠️ **Keil µVision IDE** for writing and simulating 8051 Assembly code  
 - You can also view/edit the `.asm` file using any text editor (e.g., VS Code, Notepad++)
-
----
-
+  
 ## 📌 Notes
 
 - This project was originally tested using the Keil emulator.  
-- If you no longer have Keil, you can still keep this code as a part of your GitHub portfolio or use online 8051 emulators.
 - It's a great starting point for beginners learning microcontroller interrupts and LCD interfacing.
-
----
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — feel free to use, modify, and share it. Just don’t forget to give credit. 😊
+This project is licensed under the **MIT License** — feel free to use, modify, and share it. Just don’t forget to give credit. 
