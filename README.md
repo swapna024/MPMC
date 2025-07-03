@@ -33,7 +33,7 @@ The program does the following:
      
 ## 📦 Project Files
 
-- `interrupt_lcd.asm` – The complete assembly source code for this project.
+- `digitaldice.asm` – The complete assembly source code for this project.
 - `README.md` – You're reading it!
 - (Optional) `LICENSE` – MIT License to make the code open-source.
 
